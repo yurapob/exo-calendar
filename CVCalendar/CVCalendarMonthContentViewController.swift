@@ -167,7 +167,7 @@ public final class CVCalendarMonthContentViewController: CVCalendarContentViewCo
                     return
             }
 
-            UIView.animate(withDuration: 0.5, delay: 0,
+            UIView.animate(withDuration: 0.3, delay: 0,
                            options: UIView.AnimationOptions(),
                            animations: { [weak self] in
                             guard let strongSelf = self else {
@@ -211,7 +211,7 @@ public final class CVCalendarMonthContentViewController: CVCalendarContentViewCo
                     return
             }
 
-            UIView.animate(withDuration: 0.5, delay: 0,
+            UIView.animate(withDuration: 0.3, delay: 0,
                            options: UIView.AnimationOptions(),
                            animations: { [weak self] in
                 guard let strongSelf = self else {

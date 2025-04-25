@@ -20,14 +20,13 @@ public final class CVCalendarViewAppearance: NSObject {
 
     /// Default text options.
     public var dayLabelPresentWeekdayInitallyBold: Bool? = true
-    public var dayLabelWeekdayFont: UIFont? = UIFont(name: "Avenir", size: 18)
-    public var dayLabelPresentWeekdayFont: UIFont? = UIFont(name: "Avenir", size: 18)
-    public var dayLabelPresentWeekdayBoldFont: UIFont? = UIFont(name: "Avenir-Heavy", size: 18)
-    public var dayLabelPresentWeekdayHighlightedFont: UIFont? =
-        UIFont(name: "Avenir-Heavy", size: 18)
-    public var dayLabelPresentWeekdaySelectedFont: UIFont? = UIFont(name: "Avenir-Heavy", size: 18)
-    public var dayLabelWeekdayHighlightedFont: UIFont? = UIFont(name: "Avenir-Heavy", size: 18)
-    public var dayLabelWeekdaySelectedFont: UIFont? = UIFont(name: "Avenir-Heavy", size: 18)
+    public var dayLabelWeekdayFont: UIFont? = .systemFont(ofSize: 18)
+    public var dayLabelPresentWeekdayFont: UIFont? = .systemFont(ofSize: 18)
+    public var dayLabelPresentWeekdayBoldFont: UIFont? = .systemFont(ofSize: 18, weight: .heavy)
+    public var dayLabelPresentWeekdayHighlightedFont: UIFont? = .systemFont(ofSize: 18, weight: .heavy)
+    public var dayLabelPresentWeekdaySelectedFont: UIFont? = .systemFont(ofSize: 18, weight: .heavy)
+    public var dayLabelWeekdayHighlightedFont: UIFont? = .systemFont(ofSize: 18, weight: .heavy)
+    public var dayLabelWeekdaySelectedFont: UIFont? = .systemFont(ofSize: 18, weight: .heavy)
 
     /// Default text color.
     public var dayLabelWeekdayDisabledColor: UIColor? = .secondaryText

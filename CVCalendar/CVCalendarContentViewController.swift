@@ -36,7 +36,7 @@ open class CVCalendarContentViewController: UIViewController {
     open var direction: CVScrollDirection = .none
 
     open var toggleDateAnimationDuration: Double {
-        return calendarView.delegate?.toggleDateAnimationDuration?() ?? 0.8
+        return calendarView.delegate?.toggleDateAnimationDuration?() ?? 0.25
     }
 
     public init(calendarView: CalendarView, frame: CGRect) {
